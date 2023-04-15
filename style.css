@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#surahList{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    list-style: none;
+    padding: 10px;
+}
